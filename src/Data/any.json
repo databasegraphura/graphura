@@ -1,0 +1,21 @@
+{
+    "any": {
+        "type": "object",
+        "properties": {
+        "id": {
+            "type": "string",
+            "description": "Unique identifier for the object"
+        },
+        "name": {
+            "type": "string",
+            "description": "Name of the object"
+        },
+        "value": {
+            "type": ["string", "number", "boolean", "null"],
+            "description": "Value of the object, can be of any type"
+        }
+        },
+        "required": ["id", "name"],
+        "additionalProperties": true
+    }
+}
