@@ -3,8 +3,27 @@
 A simple React + Vite + Tailwind CSS project.
 
 ## Project Structure
-
-. ├── public/ ├── src/ │ ├── App.jsx │ ├── index.css │ ├── main.jsx │ ├── assets/ │ ├── Components/ │ │ ├── Footer.jsx │ │ └── Navbar.jsx │ ├── Data/ │ │ └── any.json │ └── Pages/ │ └── Home.jsx ├── index.html ├── package.json ├── vite.config.js ├── eslint.config.js └── README.md
+```
+.
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   ├── assets/
+│   ├── Components/
+│   │   ├── Footer.jsx
+│   │   └── Navbar.jsx
+│   ├── Data/
+│   │   └── any.json
+│   └── Pages/
+│       └── Home.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+├── eslint.config.js
+└── README.md
+```
 
 ## Getting Started
 
